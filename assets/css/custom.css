@@ -1,0 +1,71 @@
+html {
+	font-family: 'Lunasima', sans-serif;
+	font-weight: 300;
+}
+
+.social {
+	margin-left: 1.25em; 
+  
+	text-decoration: none !important;
+	color: var(--sidebar-socials-color) !important;
+	display: inline-flex; /* Display the SVGs in a row */
+	justify-content: center; /* Center the SVGs horizontally within the container */
+	align-items: center; /* Center the SVGs vertically within the container */
+ }
+
+.sidebar-about h1 {
+	padding-top: 5px;
+	color: var(--sidebar-h1-color);
+	margin-top: 0;
+	font-weight: 300;
+	font-size: 1.5em;
+	font-family: 'Lunasima', sans-serif;
+}
+
+.sidebar-about p {
+	font-size: 1rem;
+	font-weight: 300;
+	font-family: 'Lunasima', sans-serif;
+}
+
+
+.sidebar-about img {
+	display: block; /* Ensure the image is treated as a block element */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-radius: 1px; /* Use a border-radius that creates rounded corners, making the image square */
+	box-shadow: rgba(191, 124, 99, 0.4) 5px 5px, rgba(191, 124, 99, 0.3) 10px 10px, rgba(191, 124, 99, 0.2) 15px 15px, rgba(191, 124, 99, 0.1) 20px 20px, rgba(191, 124, 99, 0.05) 25px 25px;
+	height: 220px;
+	width: 180px;
+}
+
+:root {
+	--sidebar-width: 18rem; /* Adjust this value to match the actual width of your sidebar */
+  }
+  
+  .footnote {
+	font-size: 0.7em;
+	margin-top: 0.5rem;
+	color: var(--sidebar-p-color);
+  
+	/* Center-align the text by default */
+	text-align: center;
+  
+	/* Positioning and centering */
+	position: fixed;
+	bottom: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+  
+	/* Limit width to prevent overlapping with sidebar */
+	max-width: calc(100% - 2rem); /* Adjust this value as needed for mobile */
+  
+	/* Media query for screens with sidebar */
+	@media (min-width: 48em) {
+	  max-width: calc(100% - var(--sidebar-width) - 2rem); /* Offset from the sidebar width */
+	  left: calc(50% + var(--sidebar-width) / 2);
+	  transform: translateX(-50%);
+	}
+  }
+  
