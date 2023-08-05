@@ -5,6 +5,9 @@ description = "Aidan Law's Blog: A Collection of Personal Anecdotes and Discover
 pluralizelisttitles = false
 
 theme = "poison"
+[markup.goldmark.renderer]
+	unsafe = true
+
 [params]
 	brand = "Aidan Law"
 	menu = [
