@@ -17,7 +17,7 @@ theme = "poison"
 	rss_section = "posts"
 	brand_image = "/images/profile.webp" 
 	github_url = "https://github.com/AidanFLaw"
-	email_url = "mailto://contact@aidanlaw.xyz"
+	email_url = "mailto:contact@aidanlaw.xyz"
 	linkedin_url = "https://www.linkedin.com/in/aidan-law-xyz/"
 	# Hex colors for your sidebar.
 	sidebar_bg_color = "#202020"            
