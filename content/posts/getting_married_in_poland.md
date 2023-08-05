@@ -207,4 +207,4 @@ I would get married to my wife again in a heartbeat, but would seriously conside
 
 Me and my beautiful wife.
 
-<img src="/images/WeddingPicture.webp" alt="Wedding Picture" width="500" height="750">
+<img src="/images/WeddingPicture.webp" alt="Wedding Picture" width="400" height="650">
