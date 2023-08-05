@@ -15,6 +15,8 @@ theme = "poison"
 		{Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
 	]
 
+	favicon = "/images/favicon.webp" 
+
 	rss_icon = true
 	# Which section the RSS icon links to, defaults to all content. See https://gohugo.io/templates/rss/#section-rss
 	rss_section = "posts"
@@ -53,6 +55,9 @@ theme = "poison"
 	code_background_color = "#E5E5E5"
 	code_color_dark = "#D9ABA0"
 	code_background_color_dark = "#393D47"
+
+	og_image = "/images/favicon.webp"
+	publisher_icon = "/images/favicon.webp"  
 [params.meta]
 	favicon = false
 
