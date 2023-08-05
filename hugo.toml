@@ -10,6 +10,7 @@ theme = "poison"
 
 [params]
 	brand = "Aidan Law"
+ 	description = "Aidan Law's Blog: A Collection of Personal Anecdotes and Discoveries"
 	menu = [
 		{Name = "About", URL = "/about/", HasChildren = false},
 		{Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
