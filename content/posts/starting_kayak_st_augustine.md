@@ -1,6 +1,6 @@
 ---
 title: "Starting Kayaking St. Augustine"
-image: /images/AidanGreg.webp
+image: "/images/AidanGreg.webp"
 Description: "Starting Kayaking St. Augustine: A Journey into Entrepreneurship and Adventure"
 date: 2023-08-01T08:01:00-00:00
 draft: false
