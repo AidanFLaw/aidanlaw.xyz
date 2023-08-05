@@ -106,9 +106,7 @@ Well, I didn't really have any other choice; I had to figure out how to go to Kr
 
 I called both places and called. I don't know why everything in Poland is like this. When you call somewhere, more often than not you will get a line busy and get disconnected.
 
-When you do finally connect, the phone will ring and ring until it disconnects. After about an
-
- hour of this, which really isn't the worst. Much better than the court in Głogów or the Lower Silesian Region Authority.
+When you do finally connect, the phone will ring and ring until it disconnects. After about an hour of this, which really isn't the worst. Much better than the court in Głogów or the Lower Silesian Region Authority.
 I got connected to the Kraków consulate. 
 
 I explained the situation, which led to audible annoyance on their end. They said the court was supposed to accept the cookie-cutter letter. Anyways, they allowed me to make an appointment the next day to get a more personalized letter.
