@@ -4,7 +4,7 @@ image: "/images/WeddingPicture.webp"
 Description: "Getting Married in Poland as an American: A Complex Journey Through Bureaucracy"
 Date: 2023-08-05T08:01:00-00:00
 Draft: false
-Tags: ["Poland", "Immigration"]
+Tags: ["Personal", "Poland", "Immigration"]
 Series: "Poland"
 ---
 ## Things to Consider

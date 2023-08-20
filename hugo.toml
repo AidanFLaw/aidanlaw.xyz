@@ -13,7 +13,9 @@ theme = "poison"
  	description = "Aidan Law's Blog: A Collection of Personal Anecdotes and Discoveries"
 	menu = [
 		{Name = "About", URL = "/about/", HasChildren = false},
-		{Name = "Posts", URL = "/posts/", Pre = "Recent", HasChildren = true, Limit = 5},
+		{Name = "Dev", URL = "/tags/dev/", HasChildren = true, Limit = 1},
+		{Name = "Business", URL = "/tags/dev/", HasChildren = true, Limit = 1},
+		{Name = "Personal", URL = "/tags/personal/", HasChildren = true, Limit = 1},
 	]
 
 	favicon = "/images/favicon.webp" 
@@ -52,7 +54,7 @@ theme = "poison"
 	date_color_dark = "#9a9a9a"
 	table_border_color_dark = "#515151"
 	table_stripe_color_dark = "#202020"
-	code_color = "#D9ABA0"
+	code_color = "#93032E"
 	code_background_color = "#E5E5E5"
 	code_color_dark = "#D9ABA0"
 	code_background_color_dark = "#393D47"
