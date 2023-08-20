@@ -1,6 +1,13 @@
+
+:root {
+	--font-size-base: 18px; /* Define your base font size */
+	--sidebar-width: 18rem; 
+}
+
 html {
 	font-family: 'Lunasima', sans-serif;
 	font-weight: 300;
+	font-size: var(--font-size-base);
 }
 
  .sidebar {
@@ -8,13 +15,14 @@ html {
 	padding-right: 1rem;
 	padding-bottom: 1rem;
 	padding-left: 1rem;
-	font-size: 18px;
+	font-size: var(--font-size-base);
  }
 
  .sidebar-about img {
 	display: block; /* Ensure the image is treated as a block element */
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 1em;
 	text-align: center;
 	border-radius: 1px; /* Use a border-radius that creates rounded corners, making the image square */
 	box-shadow: rgba(191, 124, 99, 0.4) 5px 5px, rgba(191, 124, 99, 0.3) 10px 10px, rgba(191, 124, 99, 0.2) 15px 15px, rgba(191, 124, 99, 0.1) 20px 20px, rgba(191, 124, 99, 0.05) 25px 25px;
@@ -25,7 +33,7 @@ html {
 .sidebar-about h1 {
 	padding-top: 5px;
 	color: var(--sidebar-h1-color);
-	margin-top: 0;
+	margin-top: 0.2em;
 	font-weight: 300;
 	font-size: 1.35em;
 	font-family: 'Lunasima', sans-serif;
@@ -39,15 +47,21 @@ html {
 }
 
 .sub-heading {
-	font-size: 15;
+	font-size: 0.9375rem; /* Converted from 15px */
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
 }
 
 .social {
-	margin-left: 1.25em; 
-  
+	margin-left: 1.35em;
 	text-decoration: none !important;
 	color: var(--sidebar-socials-color) !important;
 	display: inline-flex; /* Display the SVGs in a row */
 	justify-content: center; /* Center the SVGs horizontally within the container */
 	align-items: center; /* Center the SVGs vertically within the container */
- }
+}
