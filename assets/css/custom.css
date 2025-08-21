@@ -1,34 +1,94 @@
 
 :root {
 	--font-size-base: 18px; /* Define your base font size */
-	--sidebar-width: 18rem; 
+	--sidebar-width: 18rem;
+	--line-height-base: 1.6;
+	--letter-spacing-headings: 0.5px;
 }
 
 html {
 	font-family: 'Lunasima', sans-serif;
 	font-weight: 300;
 	font-size: var(--font-size-base);
+	line-height: var(--line-height-base);
 }
 
- .sidebar {
-	padding-top: 1rem;
-	padding-right: 1rem;
-	padding-bottom: 1rem;
-	padding-left: 1rem;
+.sidebar {
+	padding: 2rem 1.5rem;
 	font-size: var(--font-size-base);
- }
+}
 
- .sidebar-about img {
-	display: block; /* Ensure the image is treated as a block element */
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 1em;
-	text-align: center;
-	border-radius: 1px; /* Use a border-radius that creates rounded corners, making the image square */
-	box-shadow: rgba(191, 124, 99, 0.4) 5px 5px, rgba(191, 124, 99, 0.3) 10px 10px, rgba(191, 124, 99, 0.2) 15px 15px, rgba(191, 124, 99, 0.1) 20px 20px, rgba(191, 124, 99, 0.05) 25px 25px;
+.sidebar-about img {
+	display: block;
+	margin: 0 auto 1em;
+	border-radius: 12px;
 	height: 210px;
 	width: 172px;
+	position: relative;
+	box-shadow: 
+		rgba(0, 139, 139, 0.35) 5px 5px, 
+		rgba(0, 139, 139, 0.25) 10px 10px, 
+		rgba(0, 139, 139, 0.18) 15px 15px, 
+		rgba(0, 139, 139, 0.12) 20px 20px, 
+		rgba(0, 139, 139, 0.08) 25px 25px;
+	animation: rectangularRipple 8s ease-in-out infinite;
 }
+
+@keyframes rectangularRipple {
+	0% {
+		box-shadow: 
+			rgba(0, 139, 139, 0.35) 5px 5px, 
+			rgba(0, 139, 139, 0.25) 10px 10px, 
+			rgba(0, 139, 139, 0.18) 15px 15px, 
+			rgba(0, 139, 139, 0.12) 20px 20px, 
+			rgba(0, 139, 139, 0.08) 25px 25px;
+	}
+	20% {
+		box-shadow: 
+			rgba(0, 139, 139, 0.32) 4px 4px, 
+			rgba(0, 139, 139, 0.28) 8px 8px, 
+			rgba(0, 139, 139, 0.22) 12px 12px, 
+			rgba(0, 139, 139, 0.16) 16px 16px, 
+			rgba(0, 139, 139, 0.10) 20px 20px,
+			rgba(0, 139, 139, 0.06) 24px 24px;
+	}
+	40% {
+		box-shadow: 
+			rgba(0, 139, 139, 0.38) 3px 3px, 
+			rgba(0, 139, 139, 0.30) 6px 6px, 
+			rgba(0, 139, 139, 0.24) 9px 9px, 
+			rgba(0, 139, 139, 0.18) 12px 12px, 
+			rgba(0, 139, 139, 0.12) 15px 15px,
+			rgba(0, 139, 139, 0.08) 18px 18px,
+			rgba(0, 139, 139, 0.05) 21px 21px;
+	}
+	60% {
+		box-shadow: 
+			rgba(0, 139, 139, 0.36) 4px 4px, 
+			rgba(0, 139, 139, 0.28) 7px 7px, 
+			rgba(0, 139, 139, 0.22) 11px 11px, 
+			rgba(0, 139, 139, 0.16) 15px 15px, 
+			rgba(0, 139, 139, 0.11) 19px 19px,
+			rgba(0, 139, 139, 0.07) 23px 23px;
+	}
+	80% {
+		box-shadow: 
+			rgba(0, 139, 139, 0.33) 6px 6px, 
+			rgba(0, 139, 139, 0.26) 11px 11px, 
+			rgba(0, 139, 139, 0.20) 16px 16px, 
+			rgba(0, 139, 139, 0.14) 21px 21px, 
+			rgba(0, 139, 139, 0.09) 26px 26px;
+	}
+	100% {
+		box-shadow: 
+			rgba(0, 139, 139, 0.35) 5px 5px, 
+			rgba(0, 139, 139, 0.25) 10px 10px, 
+			rgba(0, 139, 139, 0.18) 15px 15px, 
+			rgba(0, 139, 139, 0.12) 20px 20px, 
+			rgba(0, 139, 139, 0.08) 25px 25px;
+	}
+}
+
 
 .sidebar-about h1 {
 	padding-top: 5px;
@@ -37,6 +97,7 @@ html {
 	font-weight: 300;
 	font-size: 1.35em;
 	font-family: 'Lunasima', sans-serif;
+	letter-spacing: var(--letter-spacing-headings);
 }
 
 .sidebar-about p {
@@ -52,19 +113,45 @@ html {
 
 .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 1.5em;
+    margin-left: 8px !important;
+    padding-left: 0 !important;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    gap: 0.25em;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
 }
 
+
 .social {
-    margin-left: 0.75em;
     text-decoration: none !important;
     color: var(--sidebar-socials-color) !important;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    max-width: 40px;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    vertical-align: middle;
 }
+
+.social svg {
+    display: block;
+    vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.social:hover {
+    background-color: rgba(0, 139, 139, 0.1);
+    transform: translateY(-1px);
+    color: rgba(0, 139, 139, 0.9) !important;
+}
+
