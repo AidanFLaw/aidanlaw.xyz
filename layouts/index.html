@@ -1,0 +1,43 @@
+{{ define "main" -}}
+<!-- Hero/Main Content Section -->
+<div class="homepage-content">
+    {{ .Content }}
+</div>
+
+<!-- Compact Call-to-Action Section -->
+<div class="cta-section compact">
+    <div class="cta-content">
+        <h3>Ready to solve your healthcare IT challenges?</h3>
+        <div class="cta-buttons">
+            <a href="/contact/" class="cta-button primary">
+                📞 Schedule Free Assessment
+            </a>
+            <a href="/email/" class="cta-button secondary">
+                ✉️ Get Email Address
+            </a>
+        </div>
+        <p class="cta-location">Northeast Florida • Remote Capabilities Nationwide</p>
+    </div>
+</div>
+
+<!-- Recent Insights Section -->
+<div class="recent-posts">
+    <h2>Latest Insights</h2>
+    <div class="posts">
+        {{ range first 4 (where .Site.RegularPages "Type" "posts") }}
+        <article class="post-preview">
+            {{ partial "post/info.html" . }}
+            {{ .Summary }}
+            {{ if .Truncated }}
+            <div class="read-more-link">
+                <a href="{{ .RelPermalink }}">Read More…</a>
+            </div>
+            {{ end }}
+        </article>
+        {{- end }}
+    </div>
+    <div class="view-all-posts">
+        <a href="/posts/" class="view-all-link">View All Insights →</a>
+    </div>
+</div>
+{{- end }}

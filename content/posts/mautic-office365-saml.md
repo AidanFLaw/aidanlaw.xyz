@@ -4,8 +4,8 @@ Image: "/images/mautic-logo.webp"
 Description: "A guide to configuring Mautic with Office365 Single Sign-On (SSO)"
 Date: 2023-09-04T08:01:00-00:00
 Draft: false
-Tags: ["Dev", "DevOps", "Mautic", "Office365"]
-Series: "Development"
+Tags: ["Technology", "Integration", "SSO", "Office365"]
+Series: "Technology Insights"
 ---
 ## Background
 Recently, I deployed [Mautic](https://www.mautic.org/) to run email campaigns. I find it quite impressive, although there is room for improvement in the cron-based scheduling. Regardless, it gets the job done, making it a cost-effective solution for email campaigns. The cost-effectiveness is possible because [Kayaking St. Augustine](https://kayakingstaugustine.com) uses Office365 for email hosting. I set up a Postfix container and connected it to Office365, with Mautic utilizing local SMTP.

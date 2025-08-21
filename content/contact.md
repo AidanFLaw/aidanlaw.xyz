@@ -30,7 +30,7 @@ I understand the unique pressures of managing technology in healthcare environme
 ## Contact Information
 
 ### Direct Contact
-**Email:** [contact@aidanlaw.xyz](mailto:contact@aidanlaw.xyz)  
+**For email contact:** Please visit the [Get In Touch](/email/) page - includes a simple verification step to reduce spam.  
 **Response Time:** Within 24 hours  
 **Phone Consultation:** Available upon request  
 

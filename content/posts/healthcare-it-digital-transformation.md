@@ -3,7 +3,7 @@ title: "Healthcare IT Digital Transformation: Beyond EHR Implementation"
 date: 2024-01-15T08:00:00-00:00
 draft: false
 description: "Exploring the strategic approach to healthcare digital transformation that goes beyond basic EHR implementation to create competitive advantages."
-tags: ["healthcare", "digital transformation", "strategy", "EHR"]
+tags: ["Healthcare", "Business", "Digital Transformation", "Strategy"]
 series: "Healthcare IT Insights"
 ---
 

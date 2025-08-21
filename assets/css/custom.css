@@ -155,3 +155,444 @@ html {
     color: rgba(0, 139, 139, 0.9) !important;
 }
 
+/* Homepage and Call-to-Action Styling */
+.homepage-content {
+    margin-bottom: 2rem;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, rgba(0, 139, 139, 0.05) 0%, rgba(79, 209, 199, 0.08) 100%);
+    border: 2px solid rgba(0, 139, 139, 0.1);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.cta-section.compact {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 12px;
+}
+
+.cta-content h2 {
+    color: var(--text-color);
+    font-size: 2.2em;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    letter-spacing: var(--letter-spacing-headings);
+}
+
+.cta-content h3 {
+    color: var(--text-color);
+    font-size: 1.5em;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    letter-spacing: var(--letter-spacing-headings);
+}
+
+.cta-content p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.cta-location {
+    font-size: 0.95em !important;
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.cta-button.primary {
+    background: linear-gradient(135deg, #008B8B 0%, #4FD1C7 100%);
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.2);
+}
+
+.cta-button.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 139, 139, 0.3);
+    background: linear-gradient(135deg, #006666 0%, #2DD4BF 100%);
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: var(--link-color) !important;
+    border: 2px solid rgba(0, 139, 139, 0.3);
+}
+
+.cta-button.secondary:hover {
+    background: rgba(0, 139, 139, 0.1);
+    border-color: rgba(0, 139, 139, 0.5);
+    transform: translateY(-1px);
+}
+
+.cta-details {
+    border-top: 1px solid rgba(0, 139, 139, 0.2);
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.cta-details p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.availability {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.recent-posts {
+    margin-top: 4rem;
+}
+
+.recent-posts h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    font-size: 1.8em;
+    letter-spacing: var(--letter-spacing-headings);
+}
+
+.post-preview {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--table-border-color);
+}
+
+.post-preview:last-child {
+    border-bottom: none;
+}
+
+.view-all-posts {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.view-all-link {
+    display: inline-block;
+    color: var(--link-color) !important;
+    text-decoration: none !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.view-all-link:hover {
+    background: rgba(0, 139, 139, 0.1);
+    transform: translateX(2px);
+}
+
+/* Email Challenge Page Styling */
+.email-challenge-page {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.challenge-question {
+    background: rgba(0, 139, 139, 0.05);
+    border: 2px solid rgba(0, 139, 139, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.challenge-question h3 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.5em;
+}
+
+.hint {
+    font-size: 0.95em;
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+}
+
+.illusion-captcha {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+#captcha-canvas {
+    border: 2px solid rgba(0, 139, 139, 0.2);
+    border-radius: 8px;
+    background: #f9f9f9;
+    cursor: default;
+}
+
+.option-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.option-label {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75rem;
+    border: 2px solid rgba(0, 139, 139, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgba(0, 139, 139, 0.02);
+}
+
+.option-label:hover {
+    border-color: rgba(0, 139, 139, 0.4);
+    background: rgba(0, 139, 139, 0.05);
+}
+
+.option-label input[type="radio"] {
+    margin-right: 0.5rem;
+    margin-top: 0.1rem;
+    flex-shrink: 0;
+}
+
+.option-text {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    line-height: 1.4;
+}
+
+.refresh-button {
+    background: rgba(0, 139, 139, 0.1);
+    color: var(--text-color);
+    border: 2px solid rgba(0, 139, 139, 0.3);
+    padding: 8px 16px;
+    font-size: 0.9em;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 1rem;
+    transition: all 0.2s ease;
+}
+
+.refresh-button:hover {
+    background: rgba(0, 139, 139, 0.2);
+    border-color: rgba(0, 139, 139, 0.5);
+    transform: translateY(-1px);
+}
+
+#challenge-answer:focus {
+    outline: none;
+    border-color: #008B8B;
+    box-shadow: 0 0 0 3px rgba(0, 139, 139, 0.2);
+}
+
+.challenge-button {
+    background: linear-gradient(135deg, #008B8B 0%, #4FD1C7 100%);
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.challenge-button:hover {
+    background: linear-gradient(135deg, #006666 0%, #2DD4BF 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 139, 139, 0.3);
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin: 2rem 0;
+}
+
+.contact-option {
+    background: rgba(0, 139, 139, 0.05);
+    border: 1px solid rgba(0, 139, 139, 0.15);
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.contact-option h4 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 1.3em;
+}
+
+.contact-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 150px;
+}
+
+.contact-divider span {
+    background: var(--content-bg-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border: 2px solid rgba(0, 139, 139, 0.2);
+    border-radius: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.email-tips {
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-top: 0.5rem;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #008B8B;
+    box-shadow: 0 0 0 2px rgba(0, 139, 139, 0.2);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-button {
+    background: linear-gradient(135deg, #008B8B 0%, #4FD1C7 100%);
+    color: white;
+    border: none;
+    padding: 12px 32px;
+    font-size: 1.1em;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #006666 0%, #2DD4BF 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.3);
+}
+
+#message-sent {
+    background: rgba(79, 209, 199, 0.1);
+    border: 2px solid rgba(79, 209, 199, 0.3);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+}
+
+#message-sent h3 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+#message-sent ul {
+    text-align: left;
+    max-width: 400px;
+    margin: 1rem auto 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-methods {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .contact-divider {
+        min-height: auto;
+        padding: 1rem 0;
+    }
+    
+    .contact-option {
+        padding: 1.5rem;
+    }
+    
+    .challenge-question {
+        padding: 1.5rem;
+    }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    .cta-section {
+        background: linear-gradient(135deg, rgba(79, 209, 199, 0.08) 0%, rgba(0, 139, 139, 0.05) 100%);
+        border-color: rgba(79, 209, 199, 0.15);
+    }
+    
+    .cta-content h2 {
+        color: var(--text-color-dark);
+    }
+    
+    .cta-content p {
+        color: var(--text-color-dark);
+    }
+    
+    .recent-posts h2 {
+        color: var(--text-color-dark);
+    }
+
+    .email-challenge {
+        background: rgba(79, 209, 199, 0.1);
+        border-color: rgba(79, 209, 199, 0.3);
+    }
+    
+    #email-reveal h4 {
+        color: var(--text-color-dark);
+    }
+}
+

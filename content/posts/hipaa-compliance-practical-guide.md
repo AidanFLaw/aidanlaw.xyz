@@ -3,7 +3,7 @@ title: "HIPAA Compliance: A Practical Guide for Healthcare Practices"
 date: 2024-01-20T08:00:00-00:00
 draft: false
 description: "Practical guidance for achieving and maintaining HIPAA compliance in healthcare practices, based on real-world implementation experience."
-tags: ["healthcare", "hipaa", "compliance", "security"]
+tags: ["Healthcare", "Compliance", "HIPAA", "Security"]
 series: "Healthcare IT Insights"
 ---
 

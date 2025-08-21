@@ -3,9 +3,9 @@ Title: "Docker (Containers) One of My Favorite Tools"
 #image: "/images/WeddingPicture.webp"
 #Description: "Getting Married in Poland as an American: A Complex Journey Through Bureaucracy"
 Date: 2023-08-08T08:01:00-00:00
-Draft: true
-Tags: ["Dev", "DevOps"]
-Series: "Development"
+Draft: false
+Tags: ["Technology", "DevOps", "Development"]
+Series: "Technology Insights"
 ---
 ## When I learned about Docker
 I first learned about Docker when I started my internship at FWE, in the summer of 2015. My manager at the time saw my eagerness to use Linux and related tools. I was the only person in the company running Linux on the work laptop. He also saw the popularity of containers and by extension docker blowing up on Hacker News, he tasked me with learning how it worked.
