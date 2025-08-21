@@ -5,25 +5,22 @@ draft: false
 description: "Healthcare IT Infrastructure Consultant with 10+ years experience managing technology for medical practices, specializing in HIPAA compliance and legacy system modernization."
 ---
 
-# About Aidan Law
-**Healthcare IT Infrastructure Consultant**
-
 ---
 
 ## Professional Summary
 
-I solve healthcare IT problems that keep practice managers awake at night. With over 10 years of progressive experience across healthcare, manufacturing, and defense contracting, I understand both the technical complexities and business realities of medical practice technology.
+I solve the tech problems that keep practice managers awake at night. After 10+ years across healthcare, manufacturing, and defense contracting, I've learned that the best solutions come from understanding both the technical complexities and the daily realities of running a medical practice.
 
-**Currently:** Healthcare IT Infrastructure Lead managing technology operations for a major surgical practice with 300+ employees across multiple locations.
+**Currently:** Managing all technology operations for a 300+ employee surgical practice across multiple locations. Think less "IT guy" and more "the person who makes sure your systems actually work when you need them."
 
 ---
 
 ## Core Expertise
 
-### Healthcare IT Leadership
-- **Current Role:** Managing comprehensive IT infrastructure for 300+ employee surgical practice
-- **Scope:** Multi-location technology integration, EHR optimization, and clinical workflow automation
-- **Results:** Zero-downtime operations, successful HIPAA compliance audits, and measurable efficiency improvements
+### Technology Leadership
+- **Current Role:** Managing comprehensive tech infrastructure for a 300+ employee surgical practice
+- **Scope:** Multi-location systems integration, EHR optimization, and clinical workflow automation
+- **Results:** Zero-downtime operations, successful compliance audits, and measurable efficiency improvements
 
 ### Compliance & Security Specialization
 - **HIPAA Compliance:** Successful audit preparation and implementation for healthcare organizations
@@ -47,11 +44,11 @@ I solve healthcare IT problems that keep practice managers awake at night. With 
 ### From Intern to Technology Director
 My technology career began as an IT intern at [Food Warming Equipment](https://fwe.com) during high school, where I learned the fundamentals of enterprise IT support and manufacturing systems. This hands-on experience at every level—from help desk support to infrastructure architecture—gives me unique insight into the practical challenges organizations face.
 
-### Healthcare IT Focus
-Transitioning into healthcare IT, I discovered my passion for solving the complex intersection of technology, compliance, and patient care. Managing IT operations for a large surgical practice has taught me that healthcare technology must be both cutting-edge and utterly reliable.
+### Finding My Niche in Healthcare
+Transitioning into healthcare tech, I discovered my passion for solving problems at the intersection of technology, compliance, and patient care. Managing operations for a large surgical practice has taught me that medical technology must be both cutting-edge and utterly reliable—no pressure, right?
 
 ### Entrepreneurial Experience
-As co-owner of [Kayaking St. Augustine](https://kayakingstaugustine.com), I understand the business side of operations—managing costs, optimizing efficiency, and delivering exceptional customer experiences. This entrepreneurial perspective informs my approach to healthcare IT consulting.
+As co-owner of [Kayaking St. Augustine](https://kayakingstaugustine.com), I understand the business side of operations—managing costs, optimizing efficiency, and delivering exceptional customer experiences. This entrepreneurial perspective informs my approach to technology consulting (and keeps me grounded in real-world budget constraints).
 
 ---
 
@@ -85,27 +82,29 @@ I believe healthcare technology should be:
 
 ---
 
-## Why I Focus on Healthcare IT
+## Why Healthcare Tech is Different
 
-Healthcare practices face unique challenges that generic IT consultants often don't understand:
-- Patient care can't be interrupted for system maintenance
-- Compliance requirements are complex and constantly evolving
-- Legacy systems often contain years of critical patient data
-- Staff training time is limited and valuable
+Medical practices face challenges that generic tech consultants often don't grasp:
+- Patient care can't stop for system maintenance
+- Compliance requirements are complex and constantly changing
+- Legacy systems contain years of irreplaceable patient data
+- Staff training time is limited and precious
 
-Having managed these challenges daily in a large surgical practice, I bring real-world experience and practical solutions to every engagement.
+Having wrestled with these challenges daily in a large surgical practice, I bring battle-tested experience and practical solutions to every project.
 
 ---
 
 ## Personal Interests
 
-When not solving healthcare IT challenges, I enjoy working on my homelab infrastructure, staying current with emerging technologies, and exploring the intersection of technology and business operations. I'm also learning Polish ("Mówię trochę po polsku") and enjoy the mental challenge of language acquisition.
+When not solving tech challenges, I enjoy tinkering with my homelab infrastructure, staying current with emerging technologies, and exploring how tech and business operations intersect. I'm also learning Polish ("Mówię trochę po polsku") and enjoying the mental gymnastics of language acquisition.
+
+Outside of technology, I love cooking (especially experimenting with new techniques and cuisines) and rock climbing, which has taught me a lot about problem-solving under pressure and the importance of having solid backup systems.
 
 ---
 
-## Ready to Discuss Your Healthcare IT Challenges?
+## Ready to Talk About Your Tech Headaches?
 
-I understand the pressure of managing technology in healthcare environments. Let's discuss how strategic IT improvements can eliminate your daily headaches and give your practice a competitive advantage.
+I get the pressure of managing technology in healthcare environments. Let's discuss how strategic improvements can eliminate your daily headaches and give your practice a real competitive edge.
 
 ### [Schedule Your Free Assessment →](/contact/)
 

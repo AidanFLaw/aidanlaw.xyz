@@ -386,6 +386,18 @@ html {
     line-height: 1.4;
 }
 
+/* Link styling with underlines */
+.content a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 0.2s ease;
+}
+
+.content a:hover {
+    text-decoration-thickness: 2px;
+}
+
 .refresh-button {
     background: rgba(0, 139, 139, 0.1);
     color: var(--text-color);
@@ -567,8 +579,139 @@ html {
     }
 }
 
+/* Enhanced Code Block Styling - High Contrast */
+.content pre {
+    background: #f8f9fa !important;
+    border: 2px solid rgba(0, 139, 139, 0.3);
+    border-radius: 8px;
+    padding: 1.2rem !important;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    box-shadow: 0 4px 12px rgba(0, 139, 139, 0.15);
+}
+
+/* Inline code styling (backticks) - High Contrast */
+.content code {
+    background: #f1f3f4 !important;
+    color: #212529 !important;
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+}
+
+.content a code {
+    color: #0d47a1 !important;
+    background: #e3f2fd !important;
+    border: 1px solid #90caf9;
+}
+
+.content pre code {
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0;
+    color: inherit !important;
+    border: none !important;
+    font-weight: normal;
+}
+
+/* High Contrast Syntax Highlighting */
+.content pre {
+    color: #212529 !important; /* Very dark gray base text */
+}
+
+/* Ensure plain text code blocks have excellent contrast */
+.content pre:not([class*="language-"]) {
+    color: #000000 !important; /* Pure black text */
+}
+
+/* Comments - readable gray */
+.c, .c1, .cm, .cs { 
+    color: #6c757d !important; 
+    font-style: italic; 
+}
+
+/* Keywords - strong blue */
+.k, .kc, .kd, .kn, .kp, .kr { 
+    color: #0d47a1 !important; 
+    font-weight: 700;
+}
+
+/* Strings - strong green */
+.s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { 
+    color: #2e7d32 !important; 
+    font-weight: 500;
+}
+
+/* Numbers - strong orange */
+.m, .mf, .mh, .mi, .mo { 
+    color: #e65100 !important; 
+    font-weight: 600;
+}
+
+/* Functions - strong purple */
+.nf, .nc { 
+    color: #6a1b9a !important; 
+    font-weight: 700;
+}
+
+/* Variables - dark red */
+.nv, .na, .nb { 
+    color: #c62828 !important; 
+    font-weight: 500;
+}
+
+/* Operators - very dark gray */
+.o, .ow { 
+    color: #424242 !important; 
+    font-weight: 600;
+}
+
+/* Types - dark teal */
+.kt, .nt { 
+    color: #00695c !important; 
+    font-weight: 700;
+}
+
 /* Dark mode adjustments */
 @media (prefers-color-scheme: dark) {
+    .content pre {
+        background: #1e1e1e !important;
+        border-color: rgba(79, 209, 199, 0.4);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        color: #f8f9fa !important;
+    }
+
+    /* Better contrast for plain text code blocks in dark mode */
+    .content pre:not([class*="language-"]) {
+        color: #ffffff !important;
+    }
+
+    /* Inline code (backticks) dark mode - High Contrast */
+    .content code {
+        background: #374151 !important;
+        color: #f8f9fa !important;
+        border: 1px solid #6b7280;
+    }
+
+    .content a code {
+        color: #60a5fa !important;
+        background: #1e3a8a !important;
+        border: 1px solid #3b82f6;
+    }
+
+    /* High contrast dark mode syntax colors */
+    .c, .c1, .cm, .cs { color: #9ca3af !important; font-style: italic; }
+    .k, .kc, .kd, .kn, .kp, .kr { color: #60a5fa !important; font-weight: 700; }
+    .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr { color: #34d399 !important; font-weight: 500; }
+    .m, .mf, .mh, .mi, .mo { color: #fb923c !important; font-weight: 600; }
+    .nf, .nc { color: #c084fc !important; font-weight: 700; }
+    .nv, .na, .nb { color: #f87171 !important; font-weight: 500; }
+    .o, .ow { color: #e5e7eb !important; font-weight: 600; }
+    .kt, .nt { color: #14b8a6 !important; font-weight: 700; }
+
     .cta-section {
         background: linear-gradient(135deg, rgba(79, 209, 199, 0.08) 0%, rgba(0, 139, 139, 0.05) 100%);
         border-color: rgba(79, 209, 199, 0.15);
