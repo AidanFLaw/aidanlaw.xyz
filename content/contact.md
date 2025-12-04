@@ -49,7 +49,7 @@ To help reduce spam while keeping things accessible for healthcare professionals
 <div class="contact-option">
 <h4><i class="fa-solid fa-address-card"></i> Direct Contact</h4>
 <p><strong><i class="fa-solid fa-envelope"></i> Email:</strong> <a id="email-link" href="#">Loading...</a></p>
-<p><strong><i class="fa-solid fa-phone"></i> Phone:</strong> <span id="phone-number">Loading...</span></p>
+<p><strong><i class="fa-solid fa-phone"></i> Phone:</strong> <a id="phone-link" href="tel:">Loading...</a></p>
 <p><strong><i class="fa-solid fa-clock"></i> Response Time:</strong> Within 24 hours</p>
 <p class="email-tips"><strong><i class="fa-solid fa-lightbulb"></i> Subject Line Suggestion:</strong> "Healthcare IT Consultation Request"</p>
 </div>
@@ -104,8 +104,8 @@ let correctAnswer;
 let canvas, ctx;
 let currentChallengeType;
 
-const obfuscatedPhone = [54, 45, 49, 42, 54, 46, 52, 42, 54, 46, 49, 51];
-const obfuscatedEmail = [94, 102, 97, 94, 107, 61, 94, 102, 97, 94, 107, 105, 94, 116, 43, 117, 118, 119];
+const obfuscatedPhone = [37, 54, 45, 49, 38, 29, 51, 51, 49, 42, 53, 54, 46, 48];
+const obfuscatedEmail = [96, 108, 107, 112, 114, 105, 113, 102, 107, 100, 61, 94, 102, 97, 94, 107, 105, 94, 116, 43, 117, 118, 119];
 const contactKey = 3;
 
 // Different types of visual illusions
@@ -593,7 +593,9 @@ function checkAnswer() {
     
     if (selectedOption.value === correctAnswer) {
         const email = decodeEmail();
-        document.getElementById('phone-number').textContent = decodePhone();
+        const phone = decodePhone();
+        document.getElementById('phone-link').href = 'tel:' + phone;
+        document.getElementById('phone-link').textContent = phone;
         document.getElementById('email-link').href = 'mailto:' + email;
         document.getElementById('email-link').textContent = email;
         

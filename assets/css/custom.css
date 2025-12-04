@@ -22,70 +22,71 @@ html {
 	display: block;
 	margin: 0 auto 1em;
 	border-radius: 12px;
+	border: 2px solid #0d47a1 !important;
 	height: 210px;
 	width: 172px;
 	position: relative;
 	box-shadow: 
-		rgba(0, 139, 139, 0.35) 5px 5px, 
-		rgba(0, 139, 139, 0.25) 10px 10px, 
-		rgba(0, 139, 139, 0.18) 15px 15px, 
-		rgba(0, 139, 139, 0.12) 20px 20px, 
-		rgba(0, 139, 139, 0.08) 25px 25px;
+		rgba(13, 71, 161, 0.4) 5px 5px, 
+		rgba(13, 71, 161, 0.3) 10px 10px, 
+		rgba(13, 71, 161, 0.2) 15px 15px, 
+		rgba(13, 71, 161, 0.1) 20px 20px, 
+		rgba(13, 71, 161, 0.05) 25px 25px;
 	animation: rectangularRipple 8s ease-in-out infinite;
 }
 
 @keyframes rectangularRipple {
 	0% {
 		box-shadow: 
-			rgba(0, 139, 139, 0.35) 5px 5px, 
-			rgba(0, 139, 139, 0.25) 10px 10px, 
-			rgba(0, 139, 139, 0.18) 15px 15px, 
-			rgba(0, 139, 139, 0.12) 20px 20px, 
-			rgba(0, 139, 139, 0.08) 25px 25px;
+			rgba(13, 71, 161, 0.35) 5px 5px, 
+			rgba(13, 71, 161, 0.25) 10px 10px, 
+			rgba(13, 71, 161, 0.18) 15px 15px, 
+			rgba(13, 71, 161, 0.12) 20px 20px, 
+			rgba(13, 71, 161, 0.08) 25px 25px;
 	}
 	20% {
 		box-shadow: 
-			rgba(0, 139, 139, 0.32) 4px 4px, 
-			rgba(0, 139, 139, 0.28) 8px 8px, 
-			rgba(0, 139, 139, 0.22) 12px 12px, 
-			rgba(0, 139, 139, 0.16) 16px 16px, 
-			rgba(0, 139, 139, 0.10) 20px 20px,
-			rgba(0, 139, 139, 0.06) 24px 24px;
+			rgba(13, 71, 161, 0.32) 4px 4px, 
+			rgba(13, 71, 161, 0.28) 8px 8px, 
+			rgba(13, 71, 161, 0.22) 12px 12px, 
+			rgba(13, 71, 161, 0.16) 16px 16px, 
+			rgba(13, 71, 161, 0.10) 20px 20px,
+			rgba(13, 71, 161, 0.06) 24px 24px;
 	}
 	40% {
 		box-shadow: 
-			rgba(0, 139, 139, 0.38) 3px 3px, 
-			rgba(0, 139, 139, 0.30) 6px 6px, 
-			rgba(0, 139, 139, 0.24) 9px 9px, 
-			rgba(0, 139, 139, 0.18) 12px 12px, 
-			rgba(0, 139, 139, 0.12) 15px 15px,
-			rgba(0, 139, 139, 0.08) 18px 18px,
-			rgba(0, 139, 139, 0.05) 21px 21px;
+			rgba(13, 71, 161, 0.38) 3px 3px, 
+			rgba(13, 71, 161, 0.30) 6px 6px, 
+			rgba(13, 71, 161, 0.24) 9px 9px, 
+			rgba(13, 71, 161, 0.18) 12px 12px, 
+			rgba(13, 71, 161, 0.12) 15px 15px,
+			rgba(13, 71, 161, 0.08) 18px 18px,
+			rgba(13, 71, 161, 0.05) 21px 21px;
 	}
 	60% {
 		box-shadow: 
-			rgba(0, 139, 139, 0.36) 4px 4px, 
-			rgba(0, 139, 139, 0.28) 7px 7px, 
-			rgba(0, 139, 139, 0.22) 11px 11px, 
-			rgba(0, 139, 139, 0.16) 15px 15px, 
-			rgba(0, 139, 139, 0.11) 19px 19px,
-			rgba(0, 139, 139, 0.07) 23px 23px;
+			rgba(13, 71, 161, 0.36) 4px 4px, 
+			rgba(13, 71, 161, 0.28) 7px 7px, 
+			rgba(13, 71, 161, 0.22) 11px 11px, 
+			rgba(13, 71, 161, 0.16) 15px 15px, 
+			rgba(13, 71, 161, 0.11) 19px 19px,
+			rgba(13, 71, 161, 0.07) 23px 23px;
 	}
 	80% {
 		box-shadow: 
-			rgba(0, 139, 139, 0.33) 6px 6px, 
-			rgba(0, 139, 139, 0.26) 11px 11px, 
-			rgba(0, 139, 139, 0.20) 16px 16px, 
-			rgba(0, 139, 139, 0.14) 21px 21px, 
-			rgba(0, 139, 139, 0.09) 26px 26px;
+			rgba(13, 71, 161, 0.33) 6px 6px, 
+			rgba(13, 71, 161, 0.26) 11px 11px, 
+			rgba(13, 71, 161, 0.20) 16px 16px, 
+			rgba(13, 71, 161, 0.14) 21px 21px, 
+			rgba(13, 71, 161, 0.09) 26px 26px;
 	}
 	100% {
 		box-shadow: 
-			rgba(0, 139, 139, 0.35) 5px 5px, 
-			rgba(0, 139, 139, 0.25) 10px 10px, 
-			rgba(0, 139, 139, 0.18) 15px 15px, 
-			rgba(0, 139, 139, 0.12) 20px 20px, 
-			rgba(0, 139, 139, 0.08) 25px 25px;
+			rgba(13, 71, 161, 0.35) 5px 5px, 
+			rgba(13, 71, 161, 0.25) 10px 10px, 
+			rgba(13, 71, 161, 0.18) 15px 15px, 
+			rgba(13, 71, 161, 0.12) 20px 20px, 
+			rgba(13, 71, 161, 0.08) 25px 25px;
 	}
 }
 
@@ -576,6 +577,160 @@ html {
     
     .challenge-question {
         padding: 1.5rem;
+    }
+}
+
+/* ACA Certification Logo Styling */
+.certification-section {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: rgba(0, 139, 139, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 139, 139, 0.1);
+}
+
+.aca-logo {
+    height: 80px;
+    width: auto;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+    filter: grayscale(0.1);
+}
+
+.aca-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+.certification-text {
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-top: 0.5rem;
+    opacity: 0.8;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+    .aca-logo {
+        height: 60px;
+    }
+    
+    .certification-section {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+}
+
+/* Kayaking Courses Section Styling */
+.kayak-section {
+    background: linear-gradient(135deg, rgba(79, 209, 199, 0.05) 0%, rgba(0, 139, 139, 0.08) 100%);
+    border: 2px solid rgba(79, 209, 199, 0.2);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.kayak-content h2 {
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    letter-spacing: var(--letter-spacing-headings);
+}
+
+.kayak-content p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+    opacity: 0.9;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kayak-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.feature {
+    background: rgba(79, 209, 199, 0.08);
+    border: 1px solid rgba(79, 209, 199, 0.2);
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.feature strong {
+    color: var(--text-color);
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+}
+
+.feature span {
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.kayak-cta {
+    margin-top: 2rem;
+}
+
+.kayak-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(135deg, #4FD1C7 0%, #008B8B 100%);
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 1.1em;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(79, 209, 199, 0.3);
+}
+
+.kayak-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(79, 209, 199, 0.4);
+    background: linear-gradient(135deg, #2DD4BF 0%, #006666 100%);
+}
+
+@media (max-width: 768px) {
+    .kayak-section {
+        padding: 2rem 1.5rem;
+        margin: 2rem 0;
+    }
+    
+    .kayak-content h2 {
+        font-size: 1.6rem;
+    }
+    
+    .kayak-features {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .feature {
+        padding: 1.2rem;
+    }
+    
+    .kayak-button {
+        padding: 0.9rem 2rem;
+        font-size: 1rem;
     }
 }
 
